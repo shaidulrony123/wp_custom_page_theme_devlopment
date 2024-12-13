@@ -1,0 +1,93 @@
+body.login{
+    background: url('../images/1.jpg');
+    display: flex;
+    align-items: center;
+    
+}
+
+body.login #login{
+    background: rgb(255, 255, 255,0.5);
+    padding: 40px;
+    border-radius: 10px;
+    /* position: relative;
+    z-index: 1; */
+}
+/* 
+body.login #login::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: .5;
+    z-index: -1;
+} */
+
+body.login #loginform{
+    background: none;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+}
+
+#login form p.submit{
+    display: block;
+}
+
+#login form p.submit input{
+    display: block;
+    width: 100%;
+    border: 0;
+    background: crimson;
+    padding: 5px;
+    font-size: 15px;
+    transition: all linear .3s;
+    margin-top: 20px;
+}
+#login form p.submit input:hover{
+    background: #000;
+}
+.login #nav{
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    float: left;
+    margin-top: 10px;
+}
+.login #nav a{
+    display: inline-block;
+    margin-top: 5px;
+}
+.login #backtoblog{
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    width: 60%;
+    float: right;
+    text-align: right;
+}
+.login #backtoblog a{
+    display: inline-block;
+    padding: 6px 15px;
+    border-radius: 5px;
+    background: #175980;
+    color: #fff;
+    transition: all linear .3s;
+}
+.login #backtoblog a:hover{
+    background: #000;
+    color: #fff;
+}
+.login .message, .login .notice, .login .success{
+    border-left: 4px solid crimson;
+}
+input#user_login, input#user_pass{
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px;
+    border-left: 4px solid crimson;
+}
